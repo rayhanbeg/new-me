@@ -124,12 +124,18 @@ line-height: normal;
 }
 
 .footer-background{
-    background-image: url('watch.png'),url('gradient2.png');
+    background: linear-gradient(90deg, #bb8d0d 0%, rgba(143, 198, 243, 0) 100%),
+    url('watch.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
     width: 1140px;
     height: 300px;
     margin-left: 230px;
-    padding-right: 230px;
-    background-repeat: no-repeat;,background-attachment: fixed;
+    margin-right: 230px;
+    margin-bottom: 230px;
+    background-repeat: no-repeat;
 }
 .footer-title{
     color: #FFF;
